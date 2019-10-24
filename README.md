@@ -59,6 +59,7 @@ node scripts/scriptLikePicture.js
 14. They will ask you to authorize to write on spreadsheet in the terminal (--> Authorize this app by visiting this url:). Command + Click on the link.
 
 15. Connect to your google account then click on 'Advance parameter' then 'Access to QuickStart' then 'Authorize' then 'Authorize'. At this step you will have a code like that : 4/sQHIDme7-GftkoZywRDw9gYhppq4y5X74WkoWLX_P9PWm4gCI. Copy it then paste it on the terminal then press enter.
+(Sometimes, Instagram ask a code verification when you try to launch the script often. If it's the case, you will have to do the same again to authorize the script to access to read your mail and enter automatically for the futur the verification code)
 
 16. Stop the script : Ctrl + C
 
@@ -67,5 +68,6 @@ node scripts/scriptLikePicture.js
 node scripts/scriptLikePicture.js
 ```
 
+18. Now we have to select pictures to scrap. Take Instagram's picture url then paste it in the SpreadSheet : Select 'picturesToScrap' sheet and insert in column A at the top (row 1 then 2 then 3...).
 
-13. Launch a first time the script to give authorization for write on Spreadsheet and read mail if instagram send you a verification code by mail 
+19. Now launch the script again and the magic potion will do the rest !
