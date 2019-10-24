@@ -71,3 +71,5 @@ node scripts/scriptLikePicture.js
 18. Now we have to select pictures to scrap. Take Instagram's picture url then paste it in the SpreadSheet : Select 'picturesToScrap' sheet and insert in column A at the top (row 1 then 2 then 3...).
 
 19. Now launch the script again and the magic potion will do the rest !
+
+If you have any problem to set up, send me shoot me a mail at ugo.nicolai@gmail.com
