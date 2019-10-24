@@ -19,7 +19,7 @@ const delay = require('./functionsGlobal/delay')
 const clearFirstLinkToPicturesToScrap = require('./functionsSpreadSheet/clearFirstLinkToPicturesToScrap')
 const addLinkToPicturesAlreadyScrapped = require('./functionsSpreadSheet/addLinkToPicturesAlreadyScrapped')
 const scriptGetAnalytics = require('./scriptGetAnalytics')
-const {testCrypted, kefcesCrypted, michmichmochiCrypted, ugonicolaiCrypted, alicehrmtteCrypted} = require('../cryptedData')
+const {dataCrypted} = require('../cryptedData')
 
 
 const scriptLikePicture = async (crypted) => {
@@ -134,8 +134,6 @@ const scriptLikePicture = async (crypted) => {
     if (res === 'err')
         return
 
-    // clearInterval(storeNotificationsEvery10m)
-
     await setTimeout(() => {
         const url = `https://hooks.slack.com/services/${crypted.slackChannel}`
         const text = `=== Finish : No more picture to scrap for ${crypted.login} ✓`
@@ -151,35 +149,6 @@ const scriptLikePicture = async (crypted) => {
         console.log(`=== ${crypted.login} --> Finish ${now}`)
         console.log('-----------------------------------------------------------------------')
     }, 2000)
-
-    // if (wordsToTarget.length)
-    //     console.log(wordsToTarget[0])
-    // else
-    //     console.log('no more words to target')
-
-    // await asyncForEachUntilReturnTrue(wordsToTarget, async (wordToTarget, i, array) => {
-    //     if (await catchErr(browser, crypted, await page.type('input.XTCLo', wordToTarget, {delay: 100})))
-    //         return
-
-    //     if (await catchErr(browser, crypted, await page.waitForSelector('a.yCE8d')))
-    //         return
-
-    //     const hrefSearchResults = await page.evaluate(() => {
-    //         return Array.from(document.querySelectorAll('a.yCE8d')).map(elem => {return elem.href})
-    //     })
-
-    //     const cityId = await hrefSearchResults.findIndex((e) => {
-    //         return e.includes('explore/locations')
-    //     })
-
-    //     console.log(cityId, hrefSearchResults[cityId])
-
-    //     if (await catchErr(browser, crypted, page.goto(hrefSearchResults[cityId], {waitUntil: 'domcontentloaded'})))
-    //         return
-    // })
 }
 
-// module.exports = scriptLikePicture
-// scriptLikePicture(michmichmochiCrypted)
-// scriptLikePicture(ugonicolaiCrypted)
-scriptLikePicture(kefcesCrypted)
+scriptLikePicture(dataCrypted)
