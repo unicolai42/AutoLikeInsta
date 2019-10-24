@@ -35,7 +35,7 @@ open CryptedData.js
 9. Authorize Spreadsheet : Go to https://developers.google.com/sheets/api/quickstart/nodejs then click to 'Enable the Google Sheets API' then 'Download Client Configuration'
 
 10. Go to Downloads folder then create json folder then move the file (credentials.json) into /scripts/functionsSpreadSheet/json :
-``
+```
 cd ~/<ChangeByWhereYouCloneTheProjectAtStep2>/InstaAutoLike/scripts/functionsSpreadSheet/
 mkdir json
 cd ~/Downloads; mv credentials.json ~/<ChangeByWhereYouCloneTheProjectAtStep2>/InstaAutoLike/scripts/functionsSpreadSheet/json
@@ -45,5 +45,7 @@ cd ~/Downloads; mv credentials.json ~/<ChangeByWhereYouCloneTheProjectAtStep2>/I
 
 12. Go to Downloads folder then create json folder then move the file (credentials.json) into /scripts/functionsGmail/json :
 ```
+cd ~/<ChangeByWhereYouCloneTheProjectAtStep2>/InstaAutoLike/scripts/functionsGmail/
+mkdir json
 cd ~/Downloads; mv credentials.json ~/<ChangeByWhereYouCloneTheProjectAtStep2>/InstaAutoLike/scripts/functionsGmail/json
 ```
