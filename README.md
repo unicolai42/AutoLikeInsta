@@ -49,3 +49,23 @@ cd ~/<ChangeByWhereYouCloneTheProjectAtStep2>/AutoLikeInsta/scripts/functionsGma
 mkdir json
 cd ~/Downloads; mv credentials.json ~/<ChangeByWhereYouCloneTheProjectAtStep2>/AutoLikeInsta/scripts/functionsGmail/json
 ```
+
+13. Launch script a first time :
+```
+cd ~/<ChangeByWhereYouCloneTheProjectAtStep2>/AutoLikeInsta
+node scripts/scriptLikePicture.js
+```
+
+14. They will ask you to authorize to write on spreadsheet in the terminal (--> Authorize this app by visiting this url:). Command + Click on the link.
+
+15. Connect to your google account then click on 'Advance parameter' then 'Access to QuickStart' then 'Authorize' then 'Authorize'. At this step you will have a code like that : 4/sQHIDme7-GftkoZywRDw9gYhppq4y5X74WkoWLX_P9PWm4gCI. Copy it then paste it on the terminal then press enter.
+
+16. Stop the script : Ctrl + C
+
+17. Now the script working. Try it again :
+```
+node scripts/scriptLikePicture.js
+```
+
+
+13. Launch a first time the script to give authorization for write on Spreadsheet and read mail if instagram send you a verification code by mail 
