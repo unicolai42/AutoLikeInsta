@@ -28,8 +28,11 @@ const scriptLikePicture = async (crypted) => {
     console.log('-----------------------------------------------------------------------')
     console.log(`=== ${crypted.login} --> Start ${now} ===`)
 
-    const oldProxyUrl = `http://${crypted.proxy}`
-    const newProxyUrl = await proxyChain.anonymizeProxy(oldProxyUrl);
+    
+    /////// COMMENT TO ACTIVATE IF YOU USE PROXY TO VERIFY YOU PROXY IS WELL ACTIVATED
+
+    // const oldProxyUrl = `http://${crypted.proxy}`
+    // const newProxyUrl = await proxyChain.anonymizeProxy(oldProxyUrl);
 
     /////// UNCOMMENT LINE BELOW AND COMMENT THE NEXT ONE IF YOU USE A PROXY AND AVOID TO LAUNCH THE NAVIGATOR
 
