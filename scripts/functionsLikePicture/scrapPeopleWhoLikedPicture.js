@@ -5,11 +5,11 @@ const manageError = require('../functionsGlobal/manageError')
 const scrapPeopleWhoLikedPicture = async (browser, page, crypted, pictureToScrap) => {
     if (await catchErr(browser, crypted, page.goto(pictureToScrap, {waitUntil: 'domcontentloaded'})))
         return
-
-    if (await catchErr(browser, crypted, page.waitForSelector('._8A5w5')))
+ 
+    if (await catchErr(browser, crypted, page.waitForSelector('.Nm9Fw ._8A5w5')))
         return
 
-    await page.click('._8A5w5')
+    await page.click('.Nm9Fw ._8A5w5')
 
     await page.waitFor(2000)
 
