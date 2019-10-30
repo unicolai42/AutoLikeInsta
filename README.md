@@ -13,7 +13,7 @@ cd <ChangeByWhereYouWantCloneIt> (example : cd Desktop)
 
 3. Clone the repository :
 ```
-git clone https://github.com/unicolai42/auto-like-insta.git AutoLikeInsta
+git clone https://github.com/unicolai42/autolikeinsta.git AutoLikeInsta
 ```
 
 4. Go in folder and download packages :
