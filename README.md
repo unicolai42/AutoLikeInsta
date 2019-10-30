@@ -38,8 +38,8 @@ open CryptedData.js
 
 11. Go to Downloads folder then create json folder then move the file (credentials.json) into /scripts/functionsSpreadSheet/json :
 ```
-cd ~/Desktop/AutoLikeInsta/scripts/functionsSpreadSheet/
-mkdir json
+cd ~/Desktop/AutoLikeInsta/scripts/functionsSpreadSheet/;
+mkdir json;
 cd ~/Downloads; mv credentials.json ~/Desktop/AutoLikeInsta/scripts/functionsSpreadSheet/json
 ```
 
@@ -47,14 +47,14 @@ cd ~/Downloads; mv credentials.json ~/Desktop/AutoLikeInsta/scripts/functionsSpr
 
 13. Go to Downloads folder then create json folder then move the file (credentials.json) into /scripts/functionsGmail/json :
 ```
-cd ~/Desktop/AutoLikeInsta/scripts/functionsGmail/
-mkdir json
+cd ~/Desktop/AutoLikeInsta/scripts/functionsGmail/;
+mkdir json;
 cd ~/Downloads; mv credentials.json ~/Desktop/AutoLikeInsta/scripts/functionsGmail/json
 ```
 
 14. Launch script a first time :
 ```
-cd ~/Desktop/AutoLikeInsta
+cd ~/Desktop/AutoLikeInsta;
 node scripts/scriptLikePicture.js
 ```
 
