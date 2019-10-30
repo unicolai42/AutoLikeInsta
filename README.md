@@ -6,7 +6,7 @@ Auto like the first picture of all public profile who have liked a picture chose
 
 1. Open a terminal : command + space then write 'Terminal'
 
-2. Go where you want clone the project :
+2. Go where you want clone the project (don't forget to remove <>) :
 ```
 cd <ChangeByWhereYouWantCloneIt> (example : cd Desktop)
 ```
