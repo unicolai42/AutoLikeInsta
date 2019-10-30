@@ -6,9 +6,9 @@ Auto like the first picture of all public profile who have liked a picture chose
 
 1. Open a terminal : command + space then write 'Terminal'
 
-2. Go where you want clone the project (don't forget to remove <>) :
+2. Go where you want clone the project. In this exemple I will suppose you want clone it in the Desktop :
 ```
-cd <ChangeByWhereYouWantCloneIt> (example : cd Desktop)
+cd ~/Desktop (or change by where you want to clone it)
 ```
 
 3. Clone the repository :
@@ -38,23 +38,23 @@ open CryptedData.js
 
 11. Go to Downloads folder then create json folder then move the file (credentials.json) into /scripts/functionsSpreadSheet/json :
 ```
-cd ~/<ChangeByWhereYouCloneTheProjectAtStep2>/AutoLikeInsta/scripts/functionsSpreadSheet/
+cd ~/Desktop/AutoLikeInsta/scripts/functionsSpreadSheet/
 mkdir json
-cd ~/Downloads; mv credentials.json ~/<ChangeByWhereYouCloneTheProjectAtStep2>/AutoLikeInsta/scripts/functionsSpreadSheet/json
+cd ~/Downloads; mv credentials.json ~/Desktop/AutoLikeInsta/scripts/functionsSpreadSheet/json
 ```
 
 12. Do the same for Gmail. Authorize : Go to https://developers.google.com/gmail/api/quickstart/nodejs then click to 'Enable the Gmail API' then 'Download Client Configuration'
 
 13. Go to Downloads folder then create json folder then move the file (credentials.json) into /scripts/functionsGmail/json :
 ```
-cd ~/<ChangeByWhereYouCloneTheProjectAtStep2>/AutoLikeInsta/scripts/functionsGmail/
+cd ~/Desktop/AutoLikeInsta/scripts/functionsGmail/
 mkdir json
-cd ~/Downloads; mv credentials.json ~/<ChangeByWhereYouCloneTheProjectAtStep2>/AutoLikeInsta/scripts/functionsGmail/json
+cd ~/Downloads; mv credentials.json ~/Desktop/AutoLikeInsta/scripts/functionsGmail/json
 ```
 
 14. Launch script a first time :
 ```
-cd ~/<ChangeByWhereYouCloneTheProjectAtStep2>/AutoLikeInsta
+cd ~/Desktop/AutoLikeInsta
 node scripts/scriptLikePicture.js
 ```
 
